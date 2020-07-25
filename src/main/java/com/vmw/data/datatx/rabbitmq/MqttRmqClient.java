@@ -29,6 +29,7 @@ public class MqttRmqClient {
             //connect
             client.connect(options);
             // publish
+            // Publish
             client.publish(
                         "demo/mqtt/test1", // topic
                         ("Payload data :" + i).getBytes(), // payload
